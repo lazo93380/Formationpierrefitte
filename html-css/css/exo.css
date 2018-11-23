@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+}
+body {
+  background: white;
+  height: 100px;
+}
+
+header {
+  background-color: yellow;
+  height: 150px;
+  background: yellow;
+}
+nav {
+  background: rgb(0, 162, 255);
+  height: 100px;
+}
+
+section {
+  background: white;
+  height: 500px;
+}
+
+article {
+  background: purple;
+  height: 500px;
+  float: right;
+  width: 200px;
+}
+
+footer {
+  background: yellow;
+  height: 75px;
+}

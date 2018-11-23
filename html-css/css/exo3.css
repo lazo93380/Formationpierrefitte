@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  padding: 0%;
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+header {
+  background-color: yellow;
+  height: 150px;
+  background: yellow;
+}
+
+nav {
+  background: rgb(0, 162, 255);
+  height: 100px;
+}
+section {
+  background: rgb(255, 193, 231);
+  height: 840px;
+}
+
+.l {
+  background: black;
+  height: 100px;
+}
+
+.a {
+  background: rgb(107, 6, 6);
+  height: 840px;
+  width: 950px;
+  float: right;
+}
+
+.z {
+  background: blue;
+  height: 100px;
+}
+
+footer {
+  background: yellow;
+  height: 50px;
+}
