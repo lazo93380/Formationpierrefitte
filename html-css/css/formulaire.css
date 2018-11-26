@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  background: #c7eef3d7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 20px 0;
+}
+fieldset:hover {
+  box-shadow: 0 0 20px #444;
+}
+.fieldset-1 {
+  background: rgba(168, 197, 36, 0.6);
+}
+.fieldset-1 label {
+  color: #fff;
+  width: 200px;
+  display: inline-block;
+  padding: 10px 0 15px 40px;
+}
+.fieldset-1 input {
+  width: 300px;
+  height: 20px;
+}
+.fieldset-2 {
+  background: rgba(36, 168, 197, 0.6);
+}
+.fieldset-2 label {
+  color: #fff;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 015px 10px;
+}
+.fieldset-2 input {
+  width: 10px;
+  height: 20px;
+}
+.fieldset-3 {
+  background: rgba(230, 86, 235, 0.6);
+}
+.fieldset-3 label {
+  color: #fff;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 0 10px 40px;
+}
+.fieldset-3 input {
+  width: 300px;
+  height: 20px;
+}
+legend {
+  color: #444;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  background: #fff;
+  text-transform: uppercase;
+}
+input[type=checkbox],
+input[type=radio] {
+  width: 30px;
+}
+
+input[type=text]:focus,
+input[type=email]focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=date]:focus {
+  border: 5px double red;
+}
+
+input[type=submit] {
+  width: 20%;
+  color: #fff;
+  background: #fe6921;
+  font-zise: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover{
+    background: #e8ab2e;
+}
+
