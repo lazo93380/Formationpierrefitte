@@ -1,0 +1,32 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 500px;
+  margin: 100px;
+}
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 200%;
+  border-collapse: collapse;
+}
+
+td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  width: 50%;
+  text-align: center;
+}
+
+th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  width: 50%;
+  text-align: center;
+}
