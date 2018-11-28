@@ -1,0 +1,29 @@
+body {
+  background: gray;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  width: 4em;
+  /*1em = 16px*/
+  height: 4em;
+}
+
+.black {
+  background: black;
+}
+.brown {
+  background: rgb(165, 42, 42);
+}
+
+.marron{
+    background: rgba(165, 42, 42, 0.527)
+}
+
+.beige{
+    background: rgb(241, 241, 2)
+}
