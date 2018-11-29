@@ -1,0 +1,134 @@
+body {
+  width: 80%;
+  margin: 10px auto;
+  font-family: cursive;
+}
+
+#contenu {
+  background: red;
+  border: 2px solid black;
+}
+
+header,
+footer {
+  height: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+  background: #8e3557;
+}
+
+nav {
+  height: 40px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 6px;
+  background: #4a1a2c;
+}
+
+section {
+  height: 500px;
+  text-align: center;
+  border: 20px solid white;
+  background: #e6e2af;
+}
+
+.a01 {
+  float: left;
+  height: 50%;
+  width: 50%;
+
+  margin: 0;
+  padding: 0;
+  text-align: center center;
+}
+
+.a1,
+.a2,
+.a3,
+.a4 {
+  height: 49%;
+  width: 49%;
+  background: orchid;
+  margin: 1px;
+}
+
+.a1,
+.a3,
+.a5,
+.a7,
+.a9,
+.a11,
+.a13,
+.a15 {
+  float: left;
+}
+
+.a2,
+.a4,
+.a6,
+.a8,
+.a10,
+.a12,
+.a14,
+.a16 {
+  float: right;
+}
+
+.a02 {
+  float: right;
+  height: 50%;
+  width: 50%;
+
+  margin: 0;
+  padding: 0;
+  text-align: center center;
+}
+
+.a5,
+.a6,
+.a7,
+.a8 {
+  height: 49%;
+  width: 49%;
+  margin: 1px;
+  background: orange;
+}
+
+.a03 {
+  float: left;
+  height: 50%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center center;
+}
+
+.a9,
+.a10,
+.a11,
+.a12 {
+  height: 49%;
+  width: 49%;
+  margin: 1px;
+  background: blue;
+}
+
+.a04 {
+  float: right;
+  height: 50%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center center;
+}
+
+.a13,
+.a14,
+.a15,
+.a16 {
+  height: 49%;
+  width: 49%;
+  margin: 1px;
+  background: red;
+}
