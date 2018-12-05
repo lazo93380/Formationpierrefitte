@@ -1,0 +1,46 @@
+.col-md-12 {
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+}
+
+.col-md {
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+.col1 {
+    border: 1px solid black;
+    text-align: center;
+    height: 60px;
+}
+
+.col2 {
+    height: 200px;
+    border: #000 1px solid;
+    text-align: center;
+    color: red;
+    font-size: 150%;
+    font-family: unset;
+}
+
+.col3 {
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    float: right;
+    position: absolute;
+}
+
+.col4 {
+    height: 150px;
+    ;
+    border: 1px solid #000;
+    text-align: center
+}
+
+.col5 {
+    margin-top: -50px;
+    text-align: center
+}
