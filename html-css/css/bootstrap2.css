@@ -1,19 +1,17 @@
 * {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .lazo1 {
-    font-weight: bold;
-    font-size: 21px;
-    color: grey;
-   
+  font-weight: bold;
+  font-size: 21px;
+  color: grey;
 }
 
 .lazo2 {
-    height: 130px;
+  height: 130px;
 }
-

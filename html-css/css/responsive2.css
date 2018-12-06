@@ -1,0 +1,180 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header{
+   height: 8vh;
+   background: blue;
+   padding: 1vh;
+}
+
+nav{
+    height: 3vh;
+    background: red;
+    text-align: center;
+    font-size: 2vh;
+    color: #fff;
+}
+
+nav a:hover{
+    background: #73ce73;
+    text-decoration: none;
+    padding:0.5% 0.8% ;
+}
+.lazo1, .lazo2, .lazo3, .lazo4{
+height: 20vh;
+width:38%;
+padding: 5%;
+margin: 1%;
+float: left;
+
+}
+
+section {
+   margin: 1.5vh;
+
+}
+
+.clear{
+    clear: both;
+}
+.lazo1{
+ background: linear-gradient(to left,
+ #40a497,
+ #6840a4);
+
+}
+
+.lazo2{
+
+background: rgb(0, 217, 255);
+
+}
+
+.lazo3{
+background: rgb(0, 217, 255);
+
+ }
+
+.lazo4{
+
+background: linear-gradient(to left,
+#40a497,
+#6840a4);
+
+ }
+
+ .lazo5{
+ height: 50px;
+ background: purple;
+ }
+
+ @media screen and (max-width: 1200px) {
+     .lazo1 {
+         background-image: url(https://media.gettyimages.com/photos/paulo-dybala-of-juventus-fc-celebrates-after-scoring-the-opening-goal-picture-id1041196646?s=612x612)
+     }
+
+     }
+
+      @media screen and (max-width: 900px){
+          .lazo1{
+          background: gray;
+          float: left;
+          }
+      }
+@media screen and (max-width: 900px) {
+    .lazo2{
+        background: rgb(0, 140, 255);
+        float: right;
+    }
+}
+@media screen and (max-width: 900px) {
+    .lazo3 {
+        background: beige;
+        float: left;
+    }
+}
+@media screen and (max-width: 900px) {
+    .lazo4{
+        background: green;
+        float: right;
+    }
+}
+
+
+ @media screen and (max-width: 700x) {
+     .lazo1 {
+         background: orange;
+         float: left;
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+     .lazo2 {
+         background: green;
+         float: right;
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+     .lazo3 {
+         background: yellow;
+         float: left;
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+     .lazo4 {
+         background: pink;
+         float: right;
+         
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     .lazo1 {
+         background: gray;
+          width:100%;
+          float: none;
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     .lazo2 {
+         background: blue;
+         width:100%;
+         float: none;
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     .lazo3 {
+         background: beige;
+          width:100%;
+          float: none;
+
+         
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     .lazo4 {
+         background: green;
+         width:100% ;
+         float: none;
+     }
+ }
+
+
+
+    
+    
+
+
+
+
+
+
+

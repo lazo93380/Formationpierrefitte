@@ -1,0 +1,24 @@
+.responsive {
+  height: 100px;
+  background: red;
+  text-align: center;
+  color: #fff;
+}
+
+
+@media screen and (min-width: 500px) {
+  .responsive {
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .responsive {
+    background: blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .responsive {
+    background: green;
+  }
+}
