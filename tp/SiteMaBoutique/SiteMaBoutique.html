@@ -1,99 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/../SiteMaBoutique/sitemaboutique.css">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <div class="container">
-        <header>
-            <div class="row">
-                <div class=" "></div>
-                <img src="img/../SiteMaBoutique/img/logo.png"alt="...">
-                <div class="col-sm">
-                MA BOUTIQUE <br>
-                vente en ligne: mode tendance et deco
-                </div>
-            
-                <div class="col-sm">
-                    <div class=" "></div>
-                    BESOIN D' AIDE?<br>
-                    <img src="img/../SiteMaBoutique/img/aide.png" alt=""> <br>
-                    du lundi au vendredi de 10h a 17h30
-
-                </div>
-                <div class="col-sm">
-                    <div class=" "></div>
-                mon compte <br>
-                <img src="img/../SiteMaBoutique/img/article.png" alt="">
-
-                </div>
-            </div>
-        </header>
-
-        <nav>
-            <div class="row">
-                <div class="col">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">accueil</li>
-                        <li class="list-inline-item">vetements</li>
-                        <li class="list-inline-item">maison</li>
-                        <li class="list-inline-item">technologie</li>
-                        <li class="list-inline-item">bijoux</li>
-                        <li class="list-inline-item">idees cadeaux</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        
         <div class="row">
-            <div class="col ">
-                <img src="img/../SiteMaBoutique/img/bandeau.png" alt="">
+            <header class="header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/../SiteMaBoutique/img/logo.png" class="navbar-brand" alt="logo">
+                        <h1 class="logo">Ma Boutique</h1>
+                        <p class="lead">Vente en ligne, Tendance et Déco</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Besoin d'aide ?</h4>
+                        <img src="img/../SiteMaBoutique/img/aide.png" alt="tel">
+                        <span>0800 10 28 10</span>
+                        <p class="lead">Du Lundi au Vendredi de 10h à 17h30</p>
+                    </div>
+                    <div class="col-md-3 account">
+                        <h4 class="compte">Mon Compte</h4>
+                        <hr>
+                        <p>
+                            <img src="img/../SiteMaBoutique/img/article.png" alt="panier"> article(s) dans votre panier
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="row">
+            <nav>
+                <ul class="list-inline bg-primary">
+                    <li class="list-inline-item">Accueil</li>
+                    <li class="list-inline-item">Vêtements</li>
+                    <li class="list-inline-item">Maison</li>
+                    <li class="list-inline-item">Technologie</li>
+                    <li class="list-inline-item">Bijoux</li>
+                    <li class="list-inline-item">Idées Cadeaux</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <img src="img/../SiteMaBoutique/img/bandeau.png" alt="bandeau">
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 pt-4 bloc b pb-4">
+                <div class="t">
+                    <h3 class="titre">Paiement Sécurisé</h3>
+                    <p>Réglé vos achats en toute sérénité sur maboutique.com</p>
+                    <img src="img/../SiteMaBoutique/img/paiement.png" alt="paiement">
+                </div>
+            </div>
+            <div class="col-md-6 pt-4 bloc b pb-4">
+                <div class="t">
+                    <h3 class="titre">Qui sommes nous ?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quia distinctio aspernatur excepturi tempore
+                        eius consequuntur optio sunt unde.</p>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4 b pb-4">
+                <h3 class="titre">Services</h3>
+                <ul class="list-unstyled">
+                    <li class="pb-4">
+                        <img src="img/../SiteMaBoutique/img/camion.png" alt="camion"> Livraison sous 48h</li>
+                    <li>
+                        <img src="img/../SiteMaBoutique/img/echange.png" alt="echange"> Produits échangeable</li>
+                </ul>
             </div>
         </div>
 
         <div class="row">
-            <div class="col">
-                <h3>paiment securise</h3>
-                <p>regler vos achats en toutes serenite sur ma boutique.com
-                </p>
-            <img src="img/../SiteMaBoutique/img/paiement.png" alt="">
+            <div class="col bloc2">
+                <h4>Bon Plan</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos molestiae! Fugiat architecto
+                    ex perferendis ipsum praesentium. Temporibus, vitae reiciendis nisi ullam magnam dolorem velit labore,
+                    voluptates, in aperiam nemo!</p>
+                <a href="#">Voir</a>
             </div>
-            
-            <div class="col">QUI SOMMES NOUS?
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dignissimos similique quae accusantium! Officia sint exercitationem deleniti in dolorem, vitae corporis quisquam laboriosam non hic ratione eos ex similique optio?</p>
+            <div class="col bloc2">
+                <h4>Coup de Coeur</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos molestiae! Fugiat architecto
+                    ex perferendis ipsum praesentium. Temporibus, vitae reiciendis nisi ullam magnam dolorem velit labore,
+                    voluptates, in aperiam nemo!</p>
+                <a href="#">Voir</a>
             </div>
-
-            <div class="col">
-                <h3>SERVICES?</h3>
-                <img src="img/../SiteMaBoutique/img/camion.png" alt=""><br> <br>
-                <img src="img/../SiteMaBoutique/img/echange.png" alt="">
+            <div class="col bloc2">
+                <h4>Objectif Plaisir</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos molestiae! Fugiat architecto
+                    ex perferendis ipsum praesentium. Temporibus, vitae reiciendis nisi ullam magnam dolorem velit labore,
+                    voluptates, in aperiam nemo!</p>
+                <a href="#">Voir</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col">bon plan
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dignissimos similique quae accusantium! Officia
-                    sint exercitationem deleniti in dolorem, vitae corporis quisquam laboriosam non hic ratione eos ex similique optio?</p>
-            </div>
-            <div class="col">coup de coeur
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dignissimos similique quae accusantium! Officia
-                    sint exercitationem deleniti in dolorem, vitae corporis quisquam laboriosam non hic ratione eos ex similique optio?</p>
-            </div>
-            <div class="col">objective plaisir
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dignissimos similique quae accusantium! Officia
-                    sint exercitationem deleniti in dolorem, vitae corporis quisquam laboriosam non hic ratione eos ex similique optio?</p>
-            </div>
+
+        <footer class="bg-primary">
+            <ul class="list-inline bg-primary">
+                <li class="list-inline-item">Newsletter - </li>
+                <li class="list-inline-item">Promotion - </li>
+                <li class="list-inline-item">Nouveaux Produits - </li>
+                <li class="list-inline-item">Meilleurs Ventes - </li>
+                <li class="list-inline-item">Mentions Légales - </li>
+                <li class="list-inline-item">CGV - </li>
+                <li class="list-inline-item">Contactez-nous</li>
+            </ul>
+        </footer>
     </div>
 </body>
+
 </html>
