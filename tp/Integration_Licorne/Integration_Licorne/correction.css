@@ -1,0 +1,232 @@
+/*style global*/
+ @import url('https://fonts.googleapis.com/css?family=Courgette');
+ 
+*{
+    box-sizing: border-box;
+ }
+ body{
+     font-family: Arial, sans-serif;
+     font: size 13px; 
+     color:#000;
+     background-color: white;
+     background-repeat: repeat;
+     background-position: top left;
+     padding-top: 70px; /*hauteur de header*/
+     background-image: url(img/background.png);
+
+ }
+
+ /*style header*/
+ header{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+    color: white;
+    background: #c55394;
+ }
+
+ header .logo{
+     float: left;
+     font-size: 28px;
+     margin-left: 15px;
+     padding: 20px;
+     font-family: 'courgette', cursive;
+ }
+
+ header .logo a{
+     color: white;
+     text-decoration: none;
+     position: relative;
+     bottom: 63px;
+
+ }
+
+ header nav.nav{
+     float: right;
+     margin-right: 15px;
+ }
+
+ header nav.nav ul{
+     margin: 0%;
+     padding: 0;
+ }
+
+ header nav.nav ul li{
+     display: inline-block;
+     padding: 25px 15px;
+     line-height: 20px;
+ }
+
+ header nav.nav ul li:hover,
+ header nav.nav ul li:focus,
+ header nav.nav ul li:active,{
+     background: #eb43a3;
+ }
+
+ header nav.nav ul li a{
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ /*style main*/
+ h1, h2, h3, h4, h5, h6{
+     color: #c55394;
+     font-family: 'courgette' , cursive;
+ }
+
+ main{
+     margin: 30px 0 60px 0;
+     background: transparent;
+ }
+.container{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#page{
+    background-color: transparent;
+    background-image: url(img/rainbow.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+#page h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+#page .block-white{
+    background: #fff;
+    border-radius: 10px;
+    min-height: 500px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+     -webkit-box-shadow:rgba(0, 0, 0, 0.5);
+      -moz-box-shadow:rgba(0, 0, 0, 0.5);
+}
+
+#page .block-white section{
+    padding: 20px 0;
+
+}
+
+#page .block-white section h2{
+    font-size: 2em;
+    color: #eb43a3;
+    font-weight: 400;
+} 
+
+/* style section #intro */
+section#intro .description{
+    font-size: 14px;
+}
+
+/* style section #list */
+.blockimage::after{
+    content:' ';
+    clear: both ;
+    display: block;
+}
+
+section#list .item-unicorn{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+section#list .item-unicorn figure{
+    margin: 0;
+    /*La propriété overflow est une propriété raccourcie pour les propriétés overflow-x et overflow-y. Elle définit comment gérer le dépassement, c'est-à-dire comment rogner le contenu, comment afficher les barres de défilement ou encore comment afficher le contenu sortant du cadre dans un élément de type bloc.*/
+    overflow: hidden;
+    position: relative;
+    
+}
+
+section#list .item-unicorn figure img{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+    transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;/*google*/
+      -moz-transition: all .5s ease-in-out;/*mozilla*/
+       -o-transition: all .5s ease-in-out;/*opera*/
+        -ms-transition: all .5s ease-in-out;/*microsoft(ie)*/
+        transform: scale(1);
+        --webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+}
+
+section#list .item-unicorn figure img:hover,
+section#list .item-unicorn figure img:focus{
+     transform: scale(1.1);
+     --webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+     }
+
+     section#list .item-unicorn figure figcaption {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         font-size: 14px;
+         padding: 10px;
+         text-align: center;
+         color: white;
+         background: rgba(0, 0, 0, 0.8);
+         }
+
+         /*style section #contact */
+         section#contact .maps {
+             float: left;
+             width: 60%;
+             padding: 10px;
+         }
+
+         section#contact .maps iframe {
+             width: 100%;
+         }
+
+         section#contact .info {
+             float: left;
+             width: 40%;
+             padding: 10px;
+         }
+
+         section#contact .info input[type=email]{
+             padding: 7px 10px;
+         }
+
+         section#contact .info input[type=submit]{
+             display: inline-block;
+             background: #c55394;
+             color: white;
+             border: 1px solid #eb43a3;
+             margin-top: 10px;
+             padding: 7px 15px;
+             font-size: 14px;
+             cursor: pointer;
+             border-radius: 4px;
+         }
+
+         /*style footer */
+         footer{
+             position: relative;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             background: #e577b5;
+             padding: 10px;
+             text-align: right;
+             font-size: 12px;
+             color: white;
+         }
