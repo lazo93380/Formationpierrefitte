@@ -125,29 +125,25 @@ prompt("je sert a afficher des données dans une boite de dialogue qui va demand
 
 // méthode(ou fonction) parseint(), la methode parseint() renvoi un nombre ou chiffre entier a partir d' une chaine de caractere(string)
 var unChiffre = "12";
-document.write(unChiffre + '<br>');
-document.write(typeof (unChiffre) + '<br>');
-unchiffre = parseint(unChiffre) + '<br>';
-document.write(unChiffre + '<br>');
-document.write(typeof(unChiffre) + '<br>');
-
-
-// méthode(ou fonction) parsefloat()
-
-var nb_en_letrre = "12.22";
-document.write(nb_en_letrre + '<br>');
-document.write(typeof (nb_en_letrre) + '<br>');
-nb_en_letrre = parseFloat(nb_en_letrre + '<br>');
-document.write(nb_en_letrre + '<br>');
-document.write(typeof(nb_en_letrre) + '<br>');
-
-// méthode tosttring(), qui sert a convertir en chaine de caractere 
-var nb_en_letrre = 258;
-document.write(nb_en_letrre + '<br>');
-document.write(typeof nb_en_letrre + '<br>');
-nb_en_letrre = nb_en_letrre.toString();
-document.write(nb_en_letrre + '<br>');
-document.write(typeof nb_en_letrre + '<br>');
+document.write(unChiffre + '<br>'); // 12
+document.write(typeof (unChiffre) + '<br>'); // string
+unChiffre = parseInt(unChiffre + '<br>');
+document.write(unChiffre + '<br>'); //12
+document.write(typeof (unChiffre) + '<br>'); //number
+//Méthode (ou fonction) parseFloat()
+var nb_en_lettre = "12.22";
+document.write(nb_en_lettre + '<br>'); // 12
+document.write(typeof (nb_en_lettre) + '<br>'); // string
+nb_en_lettre = parseFloat(nb_en_lettre + '<br>');
+document.write(nb_en_lettre + '<br>'); //12
+document.write(typeof (nb_en_lettre) + '<br>'); //number
+//Méthode toString(), qui sert a convertir en chaînes de caractère
+var nb_en_lettre = "258";
+document.write(nb_en_lettre + '<br>');
+document.write(typeof (nb_en_lettre) + '<br>');
+nb_en_lettre = nb_en_lettre.toString();
+document.write(nb_en_lettre + '<br>');
+document.write(typeof (nb_en_lettre) + '<br>');
 
 
 alert("hello, je me lance depuis le fichier script.js!!");

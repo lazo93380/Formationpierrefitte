@@ -1,0 +1,41 @@
+.nav{
+    background: lawngreen;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: -5%;
+}
+nav li {
+    list-style: none;
+    float: left;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    background: url(../img/pattern.jpg);
+    
+
+}
+
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.maison{
+    height: 546px;
+    width: 1124px;
+}
+
+.patern{
+    background: url(../img/pattern2.jpg);
+    width: 100%;
+    height: 100px;
+}
+

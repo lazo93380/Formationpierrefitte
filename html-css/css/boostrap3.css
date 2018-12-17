@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,
+    sans-serif;
+    font: size 13px;
+    color:#000;
+    background-color: white;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url(img/background.png)
+
+}
+
+header {
+    background: purple;
+    height: 70px;
+    
+}
+
+
+
+h1{
+     margin-left: 3%;
+     color: white,
+}
+
+
+        
+ul a {
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin: 8px;
+ margin-top: -29px;
+ color: white,
+ }
+h1,
+h3,
+h4,
+h5,
+h6 {
+    color: #c55394;
+    font-family: 'courgette', cursive;
+}
+
+.nav{
+    height: 30px;
+  padding-left: 38%;
+    width: 80%;
+    padding-top: 3%;
+ }
+
+ 
