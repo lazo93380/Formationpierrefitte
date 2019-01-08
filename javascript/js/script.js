@@ -95,7 +95,7 @@ var n = null,
 u = undefined,
 nn = NaN;
 
-// /!\ notez qu' il est possible de cganfer le type de valeur d' une variable, la nouvelle ecrasera tout simplement l' ancienne.
+// /!\ notez qu' il est possible de changer le type de valeur d' une variable, la nouvelle ecrasera tout simplement l' ancienne.
 
 var tt =25; // type number
 tt = true; //type boolean
